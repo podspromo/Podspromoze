@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Loja de Pods</title>
+
+<style>
+body{margin:0;font-family:Arial;background:#111;color:white}
+header{padding:20px;text-align:center;background:black;font-size:26px}
+.produtos{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:15px;padding:15px}
+.card{background:#1e1e1e;padding:10px;border-radius:10px;text-align:center}
+img{width:100%;border-radius:10px}
+button{background:#25D366;border:none;padding:8px;width:100%;margin-top:5px;border-radius:5px;font-weight:bold}
+</style>
+
+</head>
+
+<body>
+
+<header>🔥 LOJA DE PODS 🔥</header>
+
+<div class="produtos">
+
+<div class="card">
+<img src="https://via.placeholder.com/200">
+<h3>Elf Bar</h3>
+<p>R$60</p>
+<button onclick="comprar('Elf Bar')">Comprar</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/200">
+<h3>Ignite</h3>
+<p>R$70</p>
+<button onclick="comprar('Ignite')">Comprar</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/200">
+<h3>Lost Mary</h3>
+<p>R$65</p>
+<button onclick="comprar('Lost Mary')">Comprar</button>
+</div>
+
+</div>
+
+<script>
+function comprar(Daniel){
+window.open("https://wa.me/5561994341416?text=Quero%20comprar%20"+nome);
+}
+</script>
+
+</body>
+</html>
